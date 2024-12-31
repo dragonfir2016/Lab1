@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputH_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="H_p (Водень, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputC_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="C_p (Вуглець, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputS_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="S_p (Сірка, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputN_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="N_p (Азот, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputO_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="O_p (Кисень, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputW_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="W_p (Волога, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputA_p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="A_p (Зола, %)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <Button
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Розрахувати"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/resultsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Результати відобразяться тут"
+            android:textSize="16sp"
+            android:textColor="#1B5E20" />
+    </LinearLayout>
+</ScrollView>
