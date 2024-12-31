@@ -10,7 +10,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Input Fields for Task 2 -->
         <EditText
             android:id="@+id/inputH_g"
             android:layout_width="match_parent"
